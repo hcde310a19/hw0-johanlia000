@@ -10,14 +10,14 @@
 	and increase the word counter by 1
 4b. If it is a space set inWord to false (meaning you are not in a word)
 5. Increase the pointer to the next index of the text file. If it's the end of the file the number of words from the text file is the word counter's value
-5a. If inWord is false (meaning the previous index was a space) and the pointer is		pointing to a character, increase word counter by 1.
+5a. If inWord is false (meaning the previous index was a space) and the pointer is pointing to a character, increase word counter by 1.
 	Then set the inWord to true
 5b. If inWord is false (meaning the previous index was a space) and the pointer is
 	point to a space go back to the beginning of step 5 and continue from there
 5c. If inWord is true (meaning the previous index was a character) and the pointer is
 	pointing to a space, set the inWord to false
 5d. If inWord is true (meaning the previous index was a character) and the pointer is
-	pointing to a character, go back to the beginning of step 5 and continue from 		there
+	pointing to a character, go back to the beginning of step 5 and continue from there
 
 
 # Reflection on writing your program (part 8)
