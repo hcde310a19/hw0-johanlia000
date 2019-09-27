@@ -1,3 +1,26 @@
 # Description of your program (part 7)
 
+1. Take in a text file (you know it's a text file if it ends in a .txt)
+2. Create an index pointer (this can be your pencil or finger)
+2a. Create a word counter and set it to 0. Write word counter = 0 on something
+2b. Create a true/false (boolean) called inWord and set it too false. Write inWord = false on something
+3. Point your pointer to the very first starting character of the text file
+4. Check if the pointer is pointing to a character (anything that isn't a space)
+4a. If it is a character set inWord to true (meaning you are in a word) 
+	and increase the word counter by 1
+4b. If it is a space set inWord to false (meaning you are not in a word)
+5. Increase the pointer to the next index of the text file. If it's the end of the file the number of words from the text file is the word counter's value
+5a. If inWord is false (meaning the previous index was a space) and the pointer is		pointing to a character, increase word counter by 1.
+	Then set the inWord to true
+5b. If inWord is false (meaning the previous index was a space) and the pointer is
+	point to a space go back to the beginning of step 5 and continue from there
+5c. If inWord is true (meaning the previous index was a character) and the pointer is
+	pointing to a space, set the inWord to false
+5d. If inWord is true (meaning the previous index was a character) and the pointer is
+	pointing to a character, go back to the beginning of step 5 and continue from 		there
+
+
 # Reflection on writing your program (part 8)
+This problem wasn't too difficult to explain. I had to write out a few examples of texts of words and really step through my own process (that seems to come naturally) before starting to write out the instructions. It's harder to write out the directions for someone who doesn't know anything because I saw that I naturally keep track of numbers and can see the whole "picture" of the text file and just go from there. But with giving detailed instructions (like to a computer too) it's a lot harder to "see the whole picture." You have to hone in and see what you can work with. I had the most trouble with writing out how I was going to tell them what constitutes as a "new" word. I knew that it was spaces, but sometimes there can be multiple spaces before and after words that my brain automatically clumps together. I think that it was fairly satisfying to write out the directions. It was frustrating at times and I would have to go back and edit some instructions when I went to test them because I realized that I had forgotten a minor but important detail. 
+
+I hope to really expand my programming skills and learn more about how to combine design, computer science, and data science. Since I already know programming (I have taken 142, 143 and 373) I want to take on challenges that will grow my skills. 
